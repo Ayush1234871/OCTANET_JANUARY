@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #faf1f1;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    
+    color: #070707;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+    color: #FF9900;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.topleft {
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.topleft h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+}
+
+.topleft p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.buttons .btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #FF9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .btn:hover {
+    background-color: #FFAD33;
+}
+
+.topright {
+    width: 50%;
+}
+
+.topright img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.section2 {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.section2 h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+}
+
+.section2 p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.box {
+    flex: 1;
+    min-width: 300px;
+    padding: 2rem;
+    margin: 1rem;
+    border: 2px solid #FF9900;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.section3 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.section3 h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.plantable {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #FF9900;
+    color: #fff;
+}
+
+.table td {
+    background-color: #f8f8f8;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
